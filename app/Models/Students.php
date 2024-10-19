@@ -16,6 +16,7 @@ class Students extends Model
         'admission_date', 
         'yearly_fees'
     ];
+    
 
     /**
      * Get the teacher associated with the student.

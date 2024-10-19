@@ -8,4 +8,5 @@ class TeacherSeeder extends Seeder
     {
         Teachers::factory()->count(5)->create();
     }
+    
 }

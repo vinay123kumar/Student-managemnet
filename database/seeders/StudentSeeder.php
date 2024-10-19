@@ -8,4 +8,5 @@ class StudentSeeder extends Seeder
     {
         Students::factory()->count(10)->create();
     }
+    
 }

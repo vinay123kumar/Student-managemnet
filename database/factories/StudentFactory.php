@@ -25,5 +25,6 @@ class StudentFactory extends Factory
             'admission_date' => $this->faker->date,
             'yearly_fees' => $this->faker->randomFloat(2, 5000, 10000),
         ];
+        
     }
 }

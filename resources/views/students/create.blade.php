@@ -65,11 +65,11 @@
 
     label {
         font-weight: 500;
-        color: #e3e9f0; /* Remove or update if needed */
+        color: #e3e9f0; 
     }
 
     .label-navy {
-        color: blue; /* Navy blue color for labels */
+        color: blue; 
     }
 
     .form-control {

@@ -54,4 +54,5 @@
         <a href="{{ route('students.index') }}" class="btn btn-secondary">Back</a>
     </form>
 </div>
+
 @endsection

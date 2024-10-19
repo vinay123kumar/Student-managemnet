@@ -24,5 +24,6 @@ class TeacherFactory extends Factory
             "name"=>$this->faker->name,
             "subject"=>$this->faker->subject
         ];
+        
     }
 }

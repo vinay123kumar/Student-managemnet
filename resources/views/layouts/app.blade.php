@@ -28,21 +28,13 @@
             color: #EAEAEA !important;
         }
 
-        /* Container Styling */
-        /* .container {
-            background-color: #f8f9fa;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-        } */
 
-        /* Table Styling */
         table.dataTable {
             border-collapse: collapse !important;
             background-color: #ffffff;
         }
 
-        /* Button Styling */
+      
         .btn-primary {
             background-color: #007BFF;
             border: none;
@@ -76,7 +68,7 @@
             box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
-        /* Headings */
+      
         h1,
         h5 {
             color: #343a40;
@@ -84,7 +76,7 @@
             text-align: center;
         }
 
-        /* Responsive Adjustments */
+       
         @media (max-width: 768px) {
             .container {
                 padding: 1rem;

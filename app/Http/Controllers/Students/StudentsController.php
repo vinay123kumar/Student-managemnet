@@ -15,6 +15,7 @@ class StudentsController extends Controller
 
         return view('students.index', compact('students'));
     }
+    
 
     public function create()
     {
@@ -38,11 +39,13 @@ class StudentsController extends Controller
         return redirect()->route('students.index')->with('success', 'Student created successfully.');
     }
 
+
     public function edit(Students $student)
     {
         $teachers = Teachers::all();
         return view('students.edit', compact('student', 'teachers'));
     }
+    
 
     public function update(Request $request, Students $student)
     {
