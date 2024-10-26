@@ -56,6 +56,7 @@ class StudentsController extends Controller
             'admission_date' => 'required|date',
             'yearly_fees' => 'required|numeric',
         ]);
+        
 
         $student->update($request->all());
 

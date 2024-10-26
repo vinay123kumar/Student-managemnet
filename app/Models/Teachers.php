@@ -14,6 +14,7 @@ class Teachers extends Model
         'subject',
     ];
     
+    
 
     /**
      * Get the students associated with the teacher.

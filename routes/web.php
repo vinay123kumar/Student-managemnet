@@ -25,6 +25,7 @@ Route::get('students/{student}', [StudentsController::class, 'show'])->name('stu
 Route::get('students/{student}/edit', [StudentsController::class, 'edit'])->name('students.edit');
 Route::put('students/{student}', [StudentsController::class, 'update'])->name('students.update');
 Route::delete('students/{student}', [StudentsController::class, 'destroy'])->name('students.destroy');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
